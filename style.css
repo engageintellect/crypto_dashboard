@@ -1,23 +1,22 @@
 /* GLOBAL SETTINGS */
 :root {
-    background: #ffffff00;
+    /* background: #ffffff00; */
     --main-radius: 5px;
     --main-padding: 5px;
 }
 
+
 html {
   scroll-behavior: smooth;
     scroll-padding: var(--fixed-header-height);
-
 }
 
 
 .dark-mode {
-    background: black;
-    color: black;
-
-
+    background: #303030;
+    color: #ffffff;
 }
+
 
 .button {
   background-color: #000000;
@@ -49,8 +48,6 @@ html {
     overflow: clip;
     width: 100%;
     /*  padding-top: 56.25%; 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-
-
 }
 
 
@@ -58,67 +55,62 @@ footer {
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
 }
+
+
 nav {
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
 }
 
+
 main {
-    background: rgba(0, 0, 0, 0);
+    /* background: rgba(0, 0, 0, 0); */
+    background: #ffffff00;
     grid-area: main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #sidebar {
     background: #ffffff00;
     grid-area: sidebar;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #inflow {
     background: #ffffff00;
     grid-area: inflow;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #heatmap {
     background: #ffffff00;
     grid-area: heatmap;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #tweet-volume {
     background: #ffffff00;
     grid-area: tweet-volume;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #put-call {
     background: #ffffff00;
     grid-area: put-call;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
 
 
@@ -127,18 +119,16 @@ main {
     grid-area: addresses;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 #hashrate {
     background: #ffffff00;
     grid-area: hashrate;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-
-
 }
+
 
 .img {
     width: 100%;
