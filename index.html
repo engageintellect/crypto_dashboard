@@ -35,8 +35,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="https://www.livecoinwatch.com/portfolio"
-                            target="_blank">Portfolio</a>
+                        <a class="nav-link" aria-current="page" href="portfolio.html" target="_blank">Portfolio</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -53,6 +52,22 @@
                             <li><a class="dropdown-item" href="https://tradingview.com">TradingView</a></li>
                         </ul>
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tools
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://cryptobubbles.net" target="_blank">Crypto Bubbles</a></li>
+                            <li><a class="dropdown-item" href="https://glassnode.com" target="_blank">Glassnode</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://tradingview.com">TradingView</a></li>
+                        </ul>
+                    </li>
+
 
                     <!-- <li class="nav-item">
                         <a class="nav-link disabled">Disabled</a>
@@ -88,38 +103,37 @@
     </div>
 
 
-
-    <div class="container-fluid" style="height: 75vh;">
-          <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-          <script type="text/javascript">
+    <div class="container-fluid; shadow p-3 mb-5 bg-body rounded" style="height: 75vh;">
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
             new TradingView.widget({
-              "autosize": true,
-            //   "height": "100%",
-            //   "width": "100%",
-              "symbol": "BITMEX:XBT",
-              "interval": "D",
-              "timezone": "Etc/UTC",
-              "theme": "light",
-              "style": "1",
-              "locale": "en",
-              "toolbar_bg": "#f1f3f6",
-              "enable_publishing": false,
-              "hide_side_toolbar": false,
-              "allow_symbol_change": true,
-              "studies": [
-                "RSI@tv-basicstudies"
-              ],
+                "autosize": true,
+                //   "height": "100%",
+                //   "width": "100%",
+                "symbol": "BITMEX:XBT",
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "locale": "en",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "hide_side_toolbar": false,
+                "allow_symbol_change": true,
+                "studies": [
+                    "RSI@tv-basicstudies"
+                ],
             });
-          </script>
-        </div>
+        </script>
+    </div>
 
     <!-- <div class="container-fluid">
         <iframe src="crypto_dashboard/index.html"
             style="overflow:hidden; display:block; position: absolute; height: 100%; width: 100%">
         </iframe> -->
 
-        <!-- <object type="text/html" data="https://jc9361.github.io/crypto_dashboard"></object> -->
-        <!-- <object type="text/html" data="https://jc9361.github.io/crypto_dashboard"></object> -->
+    <!-- <object type="text/html" data="https://jc9361.github.io/crypto_dashboard"></object> -->
+    <!-- <object type="text/html" data="https://jc9361.github.io/crypto_dashboard"></object> -->
     </div>
 
 
